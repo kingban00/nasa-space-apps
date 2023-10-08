@@ -1,0 +1,9 @@
+requests
+certifi
+bs4
+flask
+pandas
+numpy
+scikit-learn
+nltk
+joblib

@@ -1,0 +1,195 @@
+﻿Country,lat,lng,hazard
+Afghanistan,33,65,8.8
+Albania,41,20,3.3
+Algeria,28,3,4.7
+Angola,-12.5,18.5,3.5
+Antigua and Barbuda,17.05,-61.8,1.6
+Argentina,-34,-64,2.5
+Armenia,40,45,3.7
+Australia,-27,133,3.4
+Austria,47.3333,13.3333,1.2
+Azerbaijan,40.5,47.5,4.8
+Bahamas,24.25,-76,1.9
+Bahrain,26,50.55,0.2
+Bangladesh,24,90,7.6
+Barbados,13.1667,-59.5333,1.4
+Belarus,53,28,1.7
+Belgium,50.8333,4,2
+Belize,17.25,-88.75,3.3
+Benin,9.5,2.25,1.7
+Bhutan,27.5,90.5,1.8
+Bolivia,,,3.9
+Bosnia and Herzegovina,44,18,3.2
+Botswana,-22,24,2
+Brazil,-10,-55,5.6
+Brunei Darussalam,4.5,114.6667,1.2
+Bulgaria,43,25,1.9
+Burkina Faso,13,-2,3.3
+Burundi,-3.5,30,4.9
+Cabo Verde,,,1
+Cambodia,13,105,4.6
+Cameroon,6,12,4.9
+Canada,60,-95,2.9
+Central African Republic,7,21,7.9
+Chad,15,19,5.5
+Chile,-30,-71,5
+China,35,105,7.2
+Colombia,4,-72,6.8
+Comoros,-12.1667,44.25,1.3
+Congo,-1,15,3.4
+Congo DR,,,5.4
+Costa Rica,10,-84,3.8
+Côte d'Ivoire,8,-5,4.8
+Croatia,45.1667,15.5,3
+Cuba,21.5,-80,4.2
+Cyprus,35,33,1.8
+Czech Republic,49.75,15.5,1.1
+Denmark,56,10,0.5
+Djibouti,11.5,43,4.1
+Dominica,15.4167,-61.3333,2.7
+Dominican Republic,19,-70.6667,4.9
+Ecuador,-2,-77.5,4.4
+Egypt,27,30,7.7
+El Salvador,13.8333,-88.9167,5.1
+Equatorial Guinea,2,10,2.4
+Eritrea,15,39,3.5
+Estonia,59,26,0.5
+Eswatini,,,2.3
+Ethiopia,8,38,7.2
+Fiji,-18,175,2.3
+Finland,64,26,0.1
+France,46,2,2.3
+Gabon,-1,11.75,3.1
+Gambia,13.4667,-16.5667,1.9
+Georgia,42,43.5,3.8
+Germany,51,9,1.4
+Ghana,8,-2,2
+Greece,39,22,3.5
+Grenada,12.1167,-61.6667,0.3
+Guatemala,15.5,-90.25,5.9
+Guinea,11,-10,3.4
+Guinea-Bissau,12,-15,1.5
+Guyana,5,-59,2.3
+Haiti,19,-72.4167,5.5
+Honduras,15,-86.5,4.8
+Hungary,47,20,2
+Iceland,65,-18,0.8
+India,20,77,7.3
+Indonesia,-5,120,7.3
+Iran,,,6.6
+Iraq,33,44,8.6
+Ireland,53,-8,1.3
+Israel,31.5,34.75,4.6
+Italy,42.8333,12.8333,2.9
+Jamaica,18.25,-77.5,2.5
+Japan,36,138,5.8
+Jordan,31,36,3.3
+Kazakhstan,48,68,2.6
+Kenya,1,38,5.8
+Kiribati,1.4167,173,2
+Korea DPR,,,4.7
+Korea Republic of,,,3.7
+Kuwait,29.3375,47.6581,1.4
+Kyrgyzstan,41,75,5.3
+Lao PDR,,,3.8
+Latvia,57,25,1.2
+Lebanon,33.8333,35.8333,4.8
+Lesotho,-29.5,28.5,2.1
+Liberia,6.5,-9.5,2.6
+Libya,,,8.4
+Liechtenstein,47.1667,9.5333,0.7
+Lithuania,56,24,0.9
+Luxembourg,49.75,6.1667,0.3
+Madagascar,-20,47,3.8
+Malawi,-13.5,34,2.4
+Malaysia,2.5,112.5,3.8
+Maldives,3.25,73,1.8
+Mali,17,-4,6.1
+Malta,35.8333,14.5833,1.3
+Marshall Islands,9,168,2
+Mauritania,20,-12,4.7
+Mauritius,-20.2833,57.55,2.1
+Mexico,23,-102,8.2
+Micronesia,,,2.6
+Moldova Republic of,,,2.8
+Mongolia,46,105,1.8
+Montenegro,42,19,2.4
+Morocco,32,-5,4.4
+Mozambique,-18.25,35,5.3
+Myanmar,22,98,7.6
+Namibia,-22,17,2.6
+Nauru,-0.5333,166.9167,1.4
+Nepal,28,84,5.7
+Netherlands,52.5,5.75,1
+New Zealand,-41,174,3.1
+Nicaragua,13,-85,7.4
+Niger,16,8,5.5
+Nigeria,10,8,8
+North Macedonia,,,2.5
+Norway,62,10,0.1
+Oman,21,57,3.6
+Pakistan,30,70,7.6
+Palau,7.5,134.5,1.9
+Palestine,,,5.3
+Panama,9,-80,3.1
+Papua New Guinea,-6,147,4.6
+Paraguay,-23,-58,2.1
+Peru,-10,-76,5
+Philippines,13,122,7.8
+Poland,52,20,1.3
+Portugal,39.5,-8,2.2
+Qatar,25.5,51.25,0.7
+Romania,46,25,3.7
+Russian Federation,60,100,6.6
+Rwanda,-2,30,3
+Saint Kitts and Nevis,17.3333,-62.75,1
+Saint Lucia,13.8833,-61.1333,1
+Saint Vincent and the Grenadines,13.25,-61.2,0.6
+Samoa,-13.5833,-172.3333,1.6
+Sao Tome and Principe,1,7,0.1
+Saudi Arabia,25,45,3.5
+Senegal,14,-14,4
+Serbia,44,21,3.5
+Seychelles,-4.5833,55.6667,1.6
+Sierra Leone,8.5,-11.5,3.3
+Singapore,1.3667,103.8,0.1
+Slovakia,48.6667,19.5,1.8
+Slovenia,46,15,2.2
+Solomon Islands,-8,159,3.8
+Somalia,10,49,9
+South Africa,-29,24,5.7
+South Sudan,8,30,6.2
+Spain,40,-4,3
+Sri Lanka,7,81,4.1
+Sudan,15,30,7.3
+Suriname,4,-56,2
+Sweden,62,15,0.6
+Switzerland,47,8,1
+Syria,,,8.6
+Tajikistan,39,71,5.3
+Tanzania,,,4.8
+Thailand,15,100,5.7
+Timor-Leste,-8.55,125.5167,3.1
+Togo,8,1.1667,1.9
+Tonga,-20,-175,2.2
+Trinidad and Tobago,11,-61,1.4
+Tunisia,34,9,3.7
+Turkey,39,35,7.8
+Turkmenistan,40,60,3.1
+Tuvalu,-8,178,1.5
+Uganda,1,32,5.1
+Ukraine,49,32,5.4
+United Arab Emirates,24,54,3.5
+United Kingdom,54,-2,1.9
+United States of America,,,6.9
+Uruguay,-33,-56,0.7
+Uzbekistan,41,64,4.4
+Vanuatu,-16,167,2.6
+Venezuela,,,6
+Viet Nam,16,106,5.6
+Yemen,15,48,8.1
+Zambia,-15,30,1.7
+Zimbabwe,-20,30,4.2
+,,,
+,,,
+"(*) Reliability Index: 0 more reliable, 10 less reliable.",,,

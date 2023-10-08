@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Afghanistan",
+        "ISO_A2": "AF",
+        "POP_EST": 38041754
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [65, 33]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Albania",
+        "ISO_A2": "AL",
+        "POP_EST": 2862427
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20, 41]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Algeria",
+        "ISO_A2": "DZ",
+        "POP_EST": 43053054
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3, 28]
+      }
+    }
+  ]
+}

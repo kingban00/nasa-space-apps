@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> body { margin: 0; } </style>
+
+  <script src="//unpkg.com/d3"></script>
+  <script src="//unpkg.com/polished@3.5.2/dist/polished.js"></script>
+
+  <script src="//unpkg.com/globe.gl"></script>
+  <!--<script src="../../dist/globe.gl.js"></script>-->
+</head>
+
+<body>
+  <div id="globeViz"></div>
+
+  <script>
+    const catColor = d3.scaleOrdinal(d3.schemeCategory10.map(col => polished.transparentize(0.2, col)));
+
+    const getAlt = d => d.hazard * 5e-5;
+
+    const getTooltip = d => `
+      <div style="text-align: center">
+        <div>${d.Country}</div>
+        <div>Hazard: <em>${d.hazard}</em>m</div>
+      </div>
+    `;
+
+    const myGlobe = Globe()
+      .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
+      .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
+      .pointLat('lat')
+      .pointLng('lng')
+      .pointAltitude(getAlt)
+      .pointRadius(0.12)
+      .pointLabel(getTooltip)
+      .labelLat('lat')
+      .labelLng('lng')
+      .labelAltitude(d => getAlt(d) + 1e-6)
+      .labelDotRadius(0.12)
+      .labelDotOrientation(() => 'bottom')
+      .labelSize(0.15)
+      .labelResolution(1)
+      .labelLabel(getTooltip)
+      (document.getElementById('globeViz'));
+
+    fetch('./final_json_file.json').then(res => res.json()).then(volcanoes => {
+      myGlobe.pointsData(volcanoes)
+        .labelsData(volcanoes);
+    });
+
+  </script>
+</body>
+</html>

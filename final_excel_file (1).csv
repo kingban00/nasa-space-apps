@@ -1,0 +1,71 @@
+﻿Country,lat,lng,hazard
+Antigua and Barbuda,17.05,-61.8,1.6
+Armenia,40,45,3.7
+Bahamas,24.25,-76,1.9
+Bahrain,26,50.55,0.2
+Bangladesh,24,90,7.6
+Barbados,13.1667,-59.5333,1.4
+Bosnia and Herzegovina,44,18,3.2
+Burkina Faso,13,-2,3.3
+Cabo Verde,,,1
+Chad,15,19,5.5
+Chile,-30,-71,5
+Comoros,-12.1667,44.25,1.3
+Djibouti,11.5,43,4.1
+Dominica,15.4167,-61.3333,2.7
+Dominican Republic,19,-70.6667,4.9
+Equatorial Guinea,2,10,2.4
+Eswatini,,,2.3
+Ethiopia,8,38,7.2
+Finland,64,26,0.1
+Grenada,12.1167,-61.6667,0.3
+Indonesia,-5,120,7.3
+Japan,36,138,5.8
+Jordan,31,36,3.3
+Kenya,1,38,5.8
+Kiribati,1.4167,173,2
+Lebanon,33.8333,35.8333,4.8
+Libya,,,8.4
+Liechtenstein,47.1667,9.5333,0.7
+Maldives,3.25,73,1.8
+Malta,35.8333,14.5833,1.3
+Marshall Islands,9,168,2
+Mauritius,-20.2833,57.55,2.1
+Micronesia,,,2.6
+Montenegro,42,19,2.4
+Morocco,32,-5,4.4
+Nauru,-0.5333,166.9167,1.4
+Nepal,28,84,5.7
+North Macedonia,,,2.5
+Norway,62,10,0.1
+Pakistan,30,70,7.6
+Palau,7.5,134.5,1.9
+Paraguay,-23,-58,2.1
+Philippines,13,122,7.8
+Poland,52,20,1.3
+Russian Federation,60,100,6.6
+Rwanda,-2,30,3
+Saint Kitts and Nevis,17.3333,-62.75,1
+Saint Lucia,13.8833,-61.1333,1
+Saint Vincent and the Grenadines,13.25,-61.2,0.6
+Samoa,-13.5833,-172.3333,1.6
+Sao Tome and Principe,1,7,0.1
+Saudi Arabia,25,45,3.5
+Serbia,44,21,3.5
+Seychelles,-4.5833,55.6667,1.6
+Singapore,1.3667,103.8,0.1
+Slovakia,48.6667,19.5,1.8
+Slovenia,46,15,2.2
+Somalia,10,49,9
+South Sudan,8,30,6.2
+Sudan,15,30,7.3
+Tonga,-20,-175,2.2
+Trinidad and Tobago,11,-61,1.4
+Turkey,39,35,7.8
+Tuvalu,-8,178,1.5
+Uganda,1,32,5.1
+United Kingdom,54,-2,1.9
+Yemen,15,48,8.1
+,,,
+,,,
+"(*) Reliability Index: 0 more reliable, 10 less reliable.",,,

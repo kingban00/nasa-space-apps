@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style> body { margin: 0; } </style>
+      
+        <script src="//unpkg.com/d3"></script>
+        <script src="//unpkg.com/d3-dsv"></script>
+      
+        <script src="//unpkg.com/globe.gl"></script>
+        <!--<script src="../../dist/globe.gl.js"></script>-->
+      </head>
+      
+      <body>
+        <div id="globeViz"></div>
+      
+        <script>
+            const world = Globe()
+              (document.getElementById('globeViz'))
+              .globeImageUrl('//unpkg.com/three-globe/example/img/earth-dark.jpg')
+              .pointOfView({ altitude: 4 }, 5000)
+              .polygonCapColor(feat => 'rgba(200, 0, 0, 0.6)')
+              .polygonSideColor(() => 'rgba(0, 100, 0, 0.05)')
+              .polygonLabel(({ properties: d }) => `
+                  <b>${d.ADMIN} (${d.ISO_A2})</b> <br />
+                  Vulnerability: <i>${Math.round(+d.POP_EST)}</i>
+                `)
+
+            // Auto-rotate
+            world.controls().autoRotate = true;
+            world.controls().autoRotateSpeed = 1.8;
+        
+            fetch('./final_excel_file.geojson')
+            .then(res => res.json())
+            .then(countries => {
+              world.polygonsData(countries.features.filter(d => d.properties.ISO_A2 !== 'AQ'));
+              world.onPolygonClick(({properties: d}) => {
+                const nomeDoPais = d.ADMIN;
+                const populacao = d.POP_EST;
+                const economia = d.ECONOMY;
+
+                // Faça o que você deseja com essas informações aqui
+                console.log('Nome do país:', nomeDoPais);
+                console.log('População:', populacao);
+                console.log('Economia:', economia);
+              });
+        
+        
+              setTimeout(() => world
+                .polygonsTransitionDuration(4000)
+                .polygonAltitude(feat => Math.max(0.1, Math.sqrt(+feat.properties.POP_EST)/ 3))
+              , 3000);
+            });
+          </script>
+      </body>
+</html>

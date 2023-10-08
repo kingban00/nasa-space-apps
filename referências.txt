@@ -1,0 +1,5 @@
+https://search.earthdata.nasa.gov/search/granules?p=C2491772311-POCLOUD&pg[0][v]=f&pg[0][gsk]=-start_date&tl=1696718407.092!3!!&fsm0=Humidity+Indices&fst0=Oceans
+https://www.usgs.gov/science/science-explorer/climate
+https://www.nimhd.nih.gov/resources/schare/platform-components.html#datasets
+https://www.epa.gov/aboutepa/our-mission-and-what-we-do
+https://www.noaa.gov/satellites
